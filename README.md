@@ -17,6 +17,16 @@ Generate loot tables using a cli interface
 
 ### Structure
 
-```javascript
-
+```json
+{
+  "entryCount": 0,
+  "entries": [
+      "entry-name": {
+          "weight": 0,
+          "entry-data": {}
+      }
+  ]
+}
 ```
+
+#### How to read your loottables
