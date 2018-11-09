@@ -21,7 +21,8 @@ Generate loot tables using a cli interface
 {
   "entryCount": 0,
   "entries": [
-      "entry-name": {
+      {
+          "name": "entry-name",
           "weight": 0,
           "entry-data": {}
       }
