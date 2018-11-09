@@ -17,3 +17,5 @@ let table = {
     
     ],
 };
+
+cmd.parse(process.argv);
