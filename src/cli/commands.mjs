@@ -42,3 +42,5 @@ cmd
   .action((name, weight, data) => {
         add(name, weight, data);
 });
+
+export default cmd;
