@@ -11,8 +11,8 @@ Generate loot tables using a cli interface
 * reset (resets an entire loottable)
 * read (prints a loottable to the console)
 * cancel (cancels a command)
-* create (create a new object)
-* delete (delete an object)
+* add (add a new object)
+* remove (remove an object)
 * edit (edit an object)
 
 ### Structure
