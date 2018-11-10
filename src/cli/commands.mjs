@@ -5,7 +5,6 @@ const data = program.data;
 const cmd = program.cmd;
 
 // import modules
-import cancel from '../cancel.mjs';
 import close from '../close.mjs';
 import add from '../add.mjs';
 import remove from '../remove.mjs'; 
@@ -26,13 +25,6 @@ cmd
   .description("Loot table generator");
 
 // create commands
-cmd
-  .command("cancel")
-  .alias("c")
-  .description("Cancel the current command.")
-  .action(() => {
-      cancel();
-  });
 
 cmd
   .command("close")
