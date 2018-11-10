@@ -14,3 +14,5 @@ const backup = (name) => {
   
   console.info("Created a backup of the current loot table.");
 };
+
+export default backup;
