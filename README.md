@@ -14,7 +14,6 @@ Generate loot tables using a cli interface
 * backup (save a backup of the loot table)
 * restore (open a backup)
 * read (prints a loottable to the console)
-* cancel (cancels a command)
 * add (add a new object)
 * remove (remove an object)
 * edit (edit an object)
