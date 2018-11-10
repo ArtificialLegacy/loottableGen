@@ -19,7 +19,7 @@ const init = (name) => {
   
   let check = JSON.parse(fs.readFileSync(`../tables/${name}.json`));
   
-  if(check[name]) throw("This loot table already exists. Try using the open command.");
+  if(check[name]) return console.info("This loot table already exists. Try using the open command.");
   
   fs.writeFileSync(`../tables/${name}.json`, JSON.stringify(table, null, 4), (err) => {
     if(err) console.warn(err);
