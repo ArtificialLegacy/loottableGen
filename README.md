@@ -4,11 +4,15 @@ Generate loot tables using a cli interface
 
 ### Commands
 
-* init (creates a new loottable)
-* finish (saves and closes the current loottable)
+* init (creates a new loot table)
+* rename (renames the current loot table)
+* finish (saves and closes the current loot table)
 * close (closes the current loottable)
 * open (opens a loottable)
 * reset (resets an entire loottable)
+* save (save the loot table)
+* backup (save a backup of the loot table)
+* restore (open a backup)
 * read (prints a loottable to the console)
 * cancel (cancels a command)
 * add (add a new object)
