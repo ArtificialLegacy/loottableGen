@@ -1,0 +1,25 @@
+{
+  "name": "loottablegen",
+  "version": "0.1.0",
+  "description": "Loot table generator",
+  "main": "index.mjs",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "enmap": "^4.3.3",
+    "enmap-level": "^2.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtificialLegacy/loottableGen.git"
+  },
+  "author": "Legacy Development",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArtificialLegacy/loottableGen/issues"
+  },
+  "homepage": "https://github.com/ArtificialLegacy/loottableGen#readme"
+}
