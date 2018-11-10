@@ -6,13 +6,13 @@ const init = (name) => {
   let table = {
     "name": name,
     "item-count": 0,
-    "items": [
-      {
+    "items": {
+      "Null": {
         "name": "Null",
         "weight": 0,
         "data": {},
+        },
       },
-    ],
   };
   
   data.set("session", table);
