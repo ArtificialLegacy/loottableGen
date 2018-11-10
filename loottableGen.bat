@@ -1,1 +1,2 @@
-node --expiremental-modules index.mjs
+node --experimental-modules index.mjs
+pause
