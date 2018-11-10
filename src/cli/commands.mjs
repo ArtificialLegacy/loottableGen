@@ -122,4 +122,20 @@ cmd
       save();
 });
 
+cmd
+  .command("backup <name>")
+  .alias("backup")
+  .description("Creates a backup of the current loot table.")
+  .action((name) => {
+      backup(name);
+});
+
+cmd
+  .command("restore <name>")
+  .alias("restore")
+  .description("Opens a backup loottable.")
+  .action((name) => {
+      restore(name);
+});
+
 export default cmd;
