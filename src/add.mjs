@@ -9,7 +9,7 @@ const add = (name, weight, data) => {
   
   let loottable = data.get("session");
   
-  loottable.entries[name] = {
+  loottable.items[name] = {
     "name": name,
     "weight": parseInt(weight),
     "entry-data": JSON.parse(data),
