@@ -1,5 +1,5 @@
 // import config
-import program from './config.js';
+import program from '../../config.js';
 const fs = program.fs;
 const data = program.data;
 const cmd = program.cmd;
