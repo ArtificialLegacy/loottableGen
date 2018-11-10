@@ -11,17 +11,7 @@ const finish = () => {
   
   console.info("Loot table saved.");
   
-  let table = {
-    "name": "Null",
-    "item-count": 0,
-    "items": [
-      {
-        "name": "Null",
-        "weight": 0,
-        "data": {},
-      },
-    ],
-  };
+  let table = {};
   
   data.set("session", table);
   console.info("Current loot table closed.");
