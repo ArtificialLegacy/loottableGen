@@ -1,7 +1,7 @@
 import program from '../config.js';
 const data = program.data;
 
-const add = (name, weight, data) => {
+const add = (name, weight, entrydata) => {
   
   if(!name) return console.info("No name value provided.");
   if(!weight) return console.info("No weight value provided.");
