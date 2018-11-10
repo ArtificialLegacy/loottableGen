@@ -12,3 +12,5 @@ const rename = (name) => {
   
   console.info("Current loot table renamed.");
 };
+
+export default rename;
