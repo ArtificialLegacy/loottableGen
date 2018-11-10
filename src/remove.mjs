@@ -3,7 +3,7 @@ import program from '../config.js';
 const remove = (name) => {
   let loottable = data.get("session");
   
-  delete loottable.entries[name];
+  delete loottable.items[name];
   
   data.set("session", loottable);
   
