@@ -9,3 +9,5 @@ const restore = (name) => {
   
   data.set("session", loottable);
 };
+
+export default restore;
