@@ -2,15 +2,22 @@ import program from '../config.js';
 const data = program.data;
 
 const add = (name, weight, data) => {
+  
+  if(!name) return console.info("No name value provided.");
+  if(!weight) return console.info("No weight value provided.");
+  if(!data) return console.info("No data value provided.")
+  
   let loottable = data.get("session");
   
   loottable.entries[name] = {
     "name": name,
     "weight": parseInt(weight),
-    "entry-data": data,
+    "entry-data": JSON.parse(data),
   };
   
   data.set("session", loottable);
+  
+  console.info("Loot table object created.");
 };
 
 export default add;
