@@ -5,7 +5,7 @@ const reset = () => {
   let loottable = data.get("session");
   
   let table = {
-    "name": loottable.name;
+    "name": loottable.name,
     "item-count": 0,
      "items": {
       "Null": {
