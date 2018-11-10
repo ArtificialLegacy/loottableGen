@@ -10,7 +10,7 @@ const init = (name) => {
       "Null": {
         "name": "Null",
         "weight": 0,
-        "data": {},
+        "entrydata": {},
         },
       },
   };
