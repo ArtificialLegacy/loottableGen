@@ -1,5 +1,8 @@
-// import commander
-import {commander as cmd} from '.../config.js';
+// import config
+import program from '.../config.js';
+const fs = program.fs;
+const data = program.data;
+const cmd = program.cmd;
 
 // import modules
 import cancel from '../cancel.mjs';
@@ -15,7 +18,7 @@ import reset from '../reset.mjs';
 
 // setup commander
 cmd
-  .version("0.0.1")
+  .version(program.version)
   .description("Loot table generator");
 
 // create commands
