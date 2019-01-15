@@ -22,7 +22,7 @@ Generate loot tables using a cli interface
 
 ```json
 {
-    "name": name,
+    "name": "empty",
     "item-count": 0,
     "items": {
       "Null": {
