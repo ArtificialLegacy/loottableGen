@@ -22,15 +22,16 @@ Generate loot tables using a cli interface
 
 ```json
 {
-  "entryCount": 0,
-  "entries": [
-      {
-          "name": "entry-name",
-          "weight": 0,
-          "entry-data": {}
-      }
-  ]
-}
+    "name": name,
+    "item-count": 0,
+    "items": {
+      "Null": {
+        "name": "Null",
+        "weight": 0,
+        "entrydata": {},
+        },
+      },
+  }
 ```
 
-#### How to read your loottables
+#### API comming soon (creating, loading and reading structure and discord.js support)
