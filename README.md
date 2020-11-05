@@ -33,5 +33,3 @@ Generate loot tables using a cli interface
       },
   }
 ```
-
-#### API comming soon (creating, loading and reading structure and discord.js support)
